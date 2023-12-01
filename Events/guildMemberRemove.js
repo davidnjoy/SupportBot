@@ -34,7 +34,7 @@ module.exports = new Event("guildMemberRemove", async (client, member, interacti
                 embeds: [LeaveEmbed]
             })
     
-            console.log(`\u001b[31m`, `[-]`, `\u001b[33m`, `${member.user.username} joined the server!`)
+            console.log(`\u001b[31m`, `[-]`, `\u001b[33m`, `${member.user.username} left the server!`)
     }
 
 });
